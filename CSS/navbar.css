@@ -9,11 +9,20 @@
 }
 
 .title {
-    padding: 25px 0 0 20px;
-    width: 210px;
+    margin: 16px 6px 0 0px;
+}
+.logo {
+    width: 22px;
+    margin: 0 8px 0 28px;
+    transition-duration: 1s;
+}
+.logo:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.6s ease-in-out 0s;
 }
 .navbar h2 {
-    padding: 16px 0 0 0;
+    padding: 16px 0 2px 0;
 }
 .dropDown {
     float: left;
@@ -32,15 +41,16 @@
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-                                                        font-size: min(max(14px, 3vw), 17px);
 }
+@font-face { font-family: coolvectica rg; src: url('../coolvetica rg.ttf'); } 
 .dropDownContent a{
     float: none;
     color:#232323;
-    padding: 12px 16px;
+    padding: 12px 18px;
     text-decoration: none;
     display: block;
     text-align: left;
+    font-size: 18px;
 }
 .dropDownContent a:hover {
     background-color: #ebebeb;
@@ -53,19 +63,18 @@
     margin: 10px clamp(10px, 2vw, 18px);
     border: 3px solid rgb(0, 0, 0);
     outline:none;
-    background-color: #00000000;
+    background-color: #ffffff00;
     float: right;
     color: rgb(0, 0, 0);
     transition-duration: 0.5s;
 }
 button:hover {
-    color: white;
     transition-duration: 0.25s;
+
 }
 .buttonText {
     font-size: 18px;
     font-weight: 600;
-    float: right;
     padding: 10px 18px;
 }
 .googleimg {
