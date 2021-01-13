@@ -1,0 +1,227 @@
+ *{
+    margin:0px;
+    padding:0px;
+ }
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    background-color: #232323;
+    padding: 12px 0 12px 15px;
+    overflow: hidden;
+}
+.title {
+    font-size: min(max(22px, 4vw), 28px);
+    color: white;
+    font-weight: 630;
+    float: left;
+    text-align: center;
+    margin-right: 2vw;
+    text-decoration: none;
+}
+.buttonContainer {
+    text-align: right;
+    margin-right: 20px;
+}
+.button {
+    background-color: #63ad6d00;
+    border-radius: 4px;
+    padding: 1px;
+    border: none;
+    outline:none;
+    background-color: #6DC05D;
+}
+.buttonText {
+    color: rgb(255, 255, 255);
+    font-size: min(max(16px, 3vw), 18px);
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.googleimg {
+    width: 20px;
+    margin-right: 8px;
+}
+.dropdown {
+    float: left;
+    color: white;
+    font-size: min(max(22px, 4vw), 28px);
+}
+.dropbtn .dropdown{
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+}
+#Down {
+    width: min(max(13px, 2vw), 16px); 
+    margin-left: 5px;
+}
+.dropDownContent {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: min(max(12px, 3vw), 17px);
+}
+.mapChoice {
+    float: none;
+    color: rgb(12, 12, 12);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.mapChoice:hover {
+    background-color: rgb(238, 238, 238);
+}
+.dropdown:hover .dropDownContent {
+    display: block;
+}
+.panel {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2vw 12vw 0 12vw;
+    border-radius: 5px;
+}
+.welcome {
+    color: rgb(8, 8, 8);
+    font-size: min(max(14px,2.5vw), 20px);
+    text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.welcomeContent {
+    font-size: min(max(14px, 2.5vw), 20px);
+    text-indent: 4vw;
+    padding: 5px 30px 30px 30px;
+    color: rgb(36, 36, 36);
+}
+.RecommendedText {
+    text-align: center;
+    color: rgb(46, 46, 46);
+    margin: min(max(16px, 3vw), 30px);
+    font-size: min(max(16px, 3vw), 30px);
+    font-weight: 600;
+}
+.mapTitle {
+    color: white;
+    font-weight: 800;
+    font-size: min(max(17px, 8vw), 250px);
+    padding:2px;
+    text-align: center;
+    background-position: center;
+    background-size: 100%;
+}
+.videoSlides {
+    display: flex;
+    flex-direction: row;
+}
+.videos {
+    width: 50%;
+    height: 28.1vw;
+}
+
+.videoSlides input{
+    height: 8vw;
+    max-height: 100px;
+    margin: auto;
+    outline:none;
+}
+ .dots {
+    width: 8%;
+    max-width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 10px auto 40px auto;
+}
+.videoLinks {
+    margin: 20px 0 20px 50px;
+    font-size: 25px;
+    color: rgb(8, 8, 8);
+}
+.videoLinks li {
+    margin: 15px;
+    color: rgb(36, 36, 36);
+}
+.hide {
+    display: none;
+}
+.videoLinks iframe {
+    width: 50%;
+    height: 27vw;
+    min-width: 300px;
+    min-height: 170px;
+}
+.videoLinks a {
+    color:rgb(36, 36, 36);
+    text-decoration: underline;
+}
+.footer {
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    margin-top: auto;
+}
+.footcenter {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    display: flex;
+    background-color: aquamarine;
+}
+.footer a {
+    padding: 15px 20px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(44, 44, 44);
+    font-size: min(max(14px,2.5vw), 15px);
+    text-decoration: none;
+}
+.footer img {
+    width: 30px;
+}
+.logo {
+    width: 9vw;
+    min-width: 100px;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+    transition-duration: 1s;
+}
+.logo:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.6s ease-in-out 0s;
+    border-radius: 100px;
+
+}
+.support {
+    font-size: min(max(14px,2.5vw), 15px);
+    padding: 13px;
+    color: rgb(36, 36, 36);
+    text-align: center;
+}
+.panel2 {
+    background-color: rgb(211, 211, 211);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.144), 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: auto; 
+    margin-bottom: 20px;
+    width: 45%;
+    min-width: 300px;
+}
+.bottom {
+    margin-top: auto;
+}
+
+

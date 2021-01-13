@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+	padding: 0px;
+}
+html{height:100%;}
+body {
+	background-color: #f3f3f3;
+
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+
+
+
+.panel1 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: clamp(24px, 4vw, 38px) 10vw;
+    border-radius: 5px;
+    padding: 25px;
+}
+.panel1 p {
+    margin-top: 10px;
+}
+.panel2 {
+    background-color: #D3D3D3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.144), 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+	border-radius: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+    min-width: 300px;
+	padding: 12px;
+	margin-top: auto;
+
+	margin-bottom: 20px;
+}
+.panel2 h4{
+	font-weight: 500;
+}
+
+
+
+
+.footer {
+	background-color: #D3D3D3;
+
+}
+.footcenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	width: 380px;
+	height: 100px;
+}
+.footerList {
+	margin:  auto auto auto 0;
+	display: flex;
+	flex-direction: row;
+}
+.footerList li {
+	list-style-type: none;
+	margin: 0px 12px;
+}
+.footer a {
+	margin: auto;
+	color:rgb(44, 44, 44);
+}
+.footTwitter {
+	width: 40px;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+}
+.footLogo {
+	width: 50px;
+	transition-duration: 1.4s;
+	margin-bottom: -4px;
+}
+
+
+
+
+.videoSlides{
+	display: flex;
+    flex-direction: row;
+}
+iframe{
+	width: 50%;
+	height: 28.1vw;
+	min-width: 300px;
+    min-height: 170px;
+}
+.videoSlides input{
+	height: 8vw;
+	max-height: 100px;
+    margin: auto;
+	outline:none;
+}
+.arrow1{padding-left: 10vw;}
+.arrow2{padding-right: 10vw;}
+.dots {
+    width: 8%;
+    max-width: 70px;
+    display: block;
+	margin: 10px auto 40px auto;
+}
+.hide {
+	display: none;
+}
+.videoLinks {
+	margin: 20px 0 20px 50px;
+}
+.videoLinks iframe {
+    width: 50%;
+    height: 27vw;
+    min-width: 300px;
+    min-height: 170px;
+}
+.videoLinks li {
+	color: rgb(46, 46, 46);
+	font-weight: 500;
+	text-decoration: underline;
+	margin: 10px;
+
+}
+.videoLinks a{font-size: clamp(17px, 2vw, 22px);}

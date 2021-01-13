@@ -1,0 +1,41 @@
+*{font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+h1{  /* Title */
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-weight: 640;
+}
+h2{ /* Maps on header */
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+h3 {  /* Large Unimportant */
+    font-size: clamp(26px, 2vw, 32px);
+    color: rgb(46, 46, 46);
+    font-weight: 600;
+    text-align: center;
+
+    margin-bottom: 15px;
+}
+h4 { /*welcome*/
+    font-size: clamp(15px, 2vw, 20px);
+    text-align: center;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+}
+p { /* Paragraph Content Text */
+    font-size: clamp(15px, 2vw, 20px);
+    color: rgb(46, 46, 46);
+    text-indent: 40px;
+}
+.mapTitle{ /* Large Map Name */
+    font-size: clamp(60px, 7vw, 100px);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-align: center;
+    padding: 6px;
+
+    background-position: center;
+    background-size: 150%;
+}
