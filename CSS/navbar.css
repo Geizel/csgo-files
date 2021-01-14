@@ -1,7 +1,13 @@
 .navbar {
-    background-color: #9BD65C;
-    overflow: hidden;
+    /*background: #a2e858;*/
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+
+
+    overflow: hidden;   
+
 }
 .navbar a {
     float: left;
@@ -61,7 +67,7 @@
 .button {
     border-radius: 26px;
     margin: 10px clamp(10px, 2vw, 18px);
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(155, 184, 197);
     outline:none;
     background-color: #ffffff00;
     float: right;
