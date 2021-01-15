@@ -16,29 +16,32 @@ body {
 
 .panel1 {
 	background-color: #42455C;
-    margin: clamp(24px, 4vw, 38px) 10vw;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.144), 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+    margin: clamp(30px, 3vw, 44px) clamp(40px,14vw,1200px);
     border-radius: 5px;
-    padding: 25px;
+	padding: 30px;
+	min-width: 455px;
 }
 .panel1 p {
-    margin-top: 10px;
+	margin-top: 10px;
+	color: white;
 }
 .panel2 {
-    background-color: #D3D3D3;
+    background-color:  #dfdfdf;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.144), 0 6px 20px 0 rgba(0, 0, 0, 0.082);
 	border-radius: 5px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 45%;
-    min-width: 300px;
+	width: clamp(300px,42vw,600px);
+
 	padding: 12px;
 	margin-top: auto;
-
-	margin-bottom: 20px;
+	margin-bottom: 24px;
 }
 .panel2 h4{
 	font-weight: 500;
+	color: black;
 }
 
 
@@ -121,9 +124,10 @@ iframe{
 }
 .videoLinks li {
 	color: rgb(46, 46, 46);
-	font-weight: 500;
+	font-weight: 600;
 	text-decoration: underline;
-	margin: 10px;
-
+	margin: 12px;
+	color: #5c6bdb;
+	font-size: clamp(16px, 3vw, 22px);
 }
-.videoLinks a{font-size: clamp(17px, 2vw, 22px);}
+.videoLinks a{font-size: clamp(20px, 3vw, 26px);}

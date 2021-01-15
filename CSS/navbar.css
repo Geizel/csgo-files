@@ -67,23 +67,24 @@
 .button {
     border-radius: 26px;
     margin: 10px clamp(10px, 2vw, 18px);
-    border: 3px solid #5D6CDB;
+    border: 3px solid #5c6bdb;
     outline:none;
     background-color: #ffffff00;
     float: right;
-    color: rgb(0, 0, 0);
-    transition-duration: 0.5s;
+    transition-duration: 0.70s;
 }
 button:hover {
-    transition-duration: 0.25s;
+    border-color: #5c6bdba4;
 
 }
 .buttonText {
     font-size: 18px;
     font-weight: 600;
     padding: 10px 18px;
-    color:#42455C;
+    color:#5c6bdb;
+    transition-duration: 0.70s;
 }
+.buttonText:hover{color: #5c6bdba4;}
 .googleimg {
     width: 20px;
     margin: 15px -5px 0 16px;
