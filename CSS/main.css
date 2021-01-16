@@ -17,10 +17,11 @@ body {
 .panel1 {
 	background-color: #42455C;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.144), 0 6px 20px 0 rgba(0, 0, 0, 0.082);
-    margin: clamp(30px, 3vw, 44px) clamp(40px,14vw,1200px);
+    margin: clamp(30px, 3vw, 44px) auto;
     border-radius: 5px;
 	padding: 30px;
-	min-width: 455px;
+	width: clamp(400px, 65vw, 1200px);
+	
 }
 .panel1 p {
 	margin-top: 10px;
@@ -33,7 +34,7 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: clamp(300px,42vw,600px);
+
 
 	padding: 12px;
 	margin-top: auto;
@@ -65,7 +66,7 @@ body {
 }
 .footerList li {
 	list-style-type: none;
-	margin: 0px 12px;
+	margin: 0px 10px;
 }
 .footer a {
 	margin: auto;
@@ -78,7 +79,7 @@ body {
 	display: block;
 }
 .footLogo {
-	width: 50px;
+	width: clamp(30px, 6vw, 50px);
 	transition-duration: 1.4s;
 	margin-bottom: -4px;
 }
@@ -91,19 +92,20 @@ body {
     flex-direction: row;
 }
 iframe{
-	width: 50%;
+	width: 51%;
 	height: 28.1vw;
-	min-width: 300px;
-    min-height: 170px;
+	min-width: 390px;
+    min-height: 220px;
 }
 .videoSlides input{
 	height: 8vw;
-	max-height: 100px;
+	max-height: 80px;
     margin: auto;
 	outline:none;
 }
 .arrow1{padding-left: 10vw;}
 .arrow2{padding-right: 10vw;}
+
 .dots {
     width: 8%;
     max-width: 70px;
@@ -116,12 +118,6 @@ iframe{
 .videoLinks {
 	margin: 20px 0 20px 50px;
 }
-.videoLinks iframe {
-    width: 50%;
-    height: 27vw;
-    min-width: 300px;
-    min-height: 170px;
-}
 .videoLinks li {
 	color: rgb(46, 46, 46);
 	font-weight: 600;
@@ -131,3 +127,63 @@ iframe{
 	font-size: clamp(16px, 3vw, 22px);
 }
 .videoLinks a{font-size: clamp(20px, 3vw, 26px);}
+
+@media (max-width: 585px) {
+	.panel1 {
+		width: clamp(280px, 70vw, 450px);
+		padding: 22px;
+	}
+	.button {
+		border-radius: 20px;
+		margin: 10px 4px 0 0;
+		border: 2px solid #5c6bdb;
+	}
+	.buttonText {
+		font-size: 14px;
+		padding: 4px 9px;
+	}
+	.title {
+		margin: 12px 0px 12px 8px;
+		font-size: 19px;
+	}
+	.navbar h2 {
+		padding: 12px 0 4px 0;
+		font-size: 19px;
+	}
+	.dropDownContent a{
+		padding: 14px 20px;
+		font-size: 16px;
+	}
+	#Down {
+		width: 12px;
+		margin-left: 3px;
+		margin-bottom: 1px;
+	}
+	.logo {
+		display: none;
+	}
+	.videoSlides input{
+		height: 50px;
+		outline:none;
+		margin: auto 6px
+	}
+	iframe{
+		width: 75%;
+		height: 42vw;
+		min-width: 270px;
+		min-height: 152px;
+		margin: auto;
+	}
+	.arrow1{padding-left: 0vw;}
+	.arrow2{padding-right: 0vw;}
+	.dots {
+		width: 12%;
+		max-width: 70px;
+	}
+	.videoLinks {
+		margin: 6px 0 20px 26px;
+	}
+	.panel2{
+		width: 280px;
+	}
+}

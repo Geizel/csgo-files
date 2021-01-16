@@ -18,14 +18,14 @@ h3 {  /* Large Unimportant */
     margin-bottom: 20px;
 }
 h4 { /*welcome*/
-    font-size: clamp(15px, 2vw, 20px);
+    font-size: clamp(16px, 2vw, 20px);
     text-align: center;
     font-weight: 600;
     color: #ffffff;
 
 }
 p { /* Paragraph Content Text */
-    font-size: clamp(15px, 2vw, 20px);
+    font-size: clamp(16px, 2vw, 20px);
     text-indent: 40px;
 }
 .mapTitle{ /* Large Map Name */
