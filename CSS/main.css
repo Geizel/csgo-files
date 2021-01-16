@@ -79,8 +79,7 @@ body {
 	display: block;
 }
 .footLogo {
-	width: clamp(30px, 6vw, 50px);
-	transition-duration: 1.4s;
+	width: clamp(30px, 6vw, 40px);
 	margin-bottom: -4px;
 }
 
@@ -95,7 +94,8 @@ iframe{
 	width: 51%;
 	height: 28.1vw;
 	min-width: 390px;
-    min-height: 220px;
+	min-height: 220px;
+	border: none;
 }
 .videoSlides input{
 	height: 8vw;
@@ -128,9 +128,9 @@ iframe{
 }
 .videoLinks a{font-size: clamp(20px, 3vw, 26px);}
 
-@media (max-width: 585px) {
+@media (max-width: 595px) {
 	.panel1 {
-		width: clamp(280px, 70vw, 450px);
+		width: clamp(270px, 70vw, 450px);
 		padding: 22px;
 	}
 	.button {
@@ -140,42 +140,50 @@ iframe{
 	}
 	.buttonText {
 		font-size: 14px;
-		padding: 4px 9px;
+		padding: 4px 7px;
+		font-weight: 500;
 	}
 	.title {
 		margin: 12px 0px 12px 8px;
-		font-size: 19px;
+		font-size: 18px;
 	}
 	.navbar h2 {
 		padding: 12px 0 4px 0;
-		font-size: 19px;
+		font-size: 18px;
 	}
 	.dropDownContent a{
 		padding: 14px 20px;
 		font-size: 16px;
 	}
 	#Down {
-		width: 12px;
+		width: 11px;
 		margin-left: 3px;
 		margin-bottom: 1px;
 	}
 	.logo {
 		display: none;
 	}
+	.videoSlides {
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.videoSlides input{
-		height: 50px;
+		height: clamp(34px, 10vw, 50px);
 		outline:none;
-		margin: auto 6px
+		margin: auto 4px
 	}
 	iframe{
-		width: 75%;
-		height: 42vw;
+		width:	70vw;
+		height: 39vw;
 		min-width: 270px;
 		min-height: 152px;
 		margin: auto;
 	}
-	.arrow1{padding-left: 0vw;}
-	.arrow2{padding-right: 0vw;}
+	.arrow1{float: left;
+		padding: 0;}
+	.arrow2{float: left;
+		padding: 0;}
 	.dots {
 		width: 12%;
 		max-width: 70px;
@@ -185,5 +193,13 @@ iframe{
 	}
 	.panel2{
 		width: 280px;
+	}
+	.footcenter {
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction: row;
+		width: 290px;
+		height: 100px;
 	}
 }
