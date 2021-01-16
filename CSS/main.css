@@ -141,7 +141,7 @@ iframe{
 	.buttonText {
 		font-size: 14px;
 		padding: 4px 7px;
-		font-weight: 500;
+		font-weight: 600;
 	}
 	.title {
 		margin: 12px 0px 12px 8px;
@@ -195,11 +195,8 @@ iframe{
 		width: 280px;
 	}
 	.footcenter {
-		margin-left: auto;
-		margin-right: auto;
-		display: flex;
-		flex-direction: row;
-		width: 290px;
-		height: 100px;
+		width: 310px;
+
+
 	}
 }
