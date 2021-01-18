@@ -2,7 +2,8 @@
 videoLink1.addEventListener("click", show); 
 videoLink2.addEventListener("click", show);    
 videoLink3.addEventListener("click", show);    
-videoLink4.addEventListener("click", show);       
+videoLink4.addEventListener("click", show);  
+videoLink5.addEventListener("click", show);           
 
 function show() {
     var allImages = document.querySelectorAll("iframe");
