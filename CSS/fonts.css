@@ -10,23 +10,33 @@ h2{ /* Maps on header */
     color: #42455C;
     font-weight: 600;
 }
-h3 {  /* Large Unimportant */
+h3 {  /* About */
     font-size: clamp(22px, 3vw, 32px);
-    color:#1d1d1d;
+    color:#131313;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 40px auto 10px auto;
+
 }
 h4 { /*welcome*/
     font-size: clamp(16px, 2vw, 20px);
     text-align: center;
     font-weight: 600;
     color: #ffffff;
-
+}
+h5 { /* Large Unimportant */
+    font-size: clamp(22px, 3vw, 32px);
+    color:#1d1d1d;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
 }
 p { /* Paragraph Content Text */
     font-size: clamp(16px, 2vw, 20px);
     text-indent: 40px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 .mapTitle{ /* Large Map Name */
     font-size: clamp(60px, 7vw, 100px);
