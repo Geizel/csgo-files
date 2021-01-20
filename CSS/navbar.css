@@ -13,22 +13,9 @@
     float: left;
     text-decoration: none;
 }
-
-.title {
-    margin: 16px 6px 16px 0px;
-}
 .logo {
-    width: 22px;
+    width: 20px;
     margin: 0 8px 0 28px;
-    transition: all 0.8s ease-in-out 0s;
-
-}
-.logo:hover {
-    cursor: default;
-    transform: rotate(360deg);
-}
-.navbar h2 {
-    padding: 16px 0 2px 0;
 }
 .dropDown {
     float: left;
@@ -71,20 +58,19 @@
     outline:none;
     background-color: #ffffff00;
     float: right;
-    transition-duration: 0.70s;
+
 }
 button:hover {
-    border-color: #5c6bdba4;
-
+    border-color: #5c6bdbb2;
+    transition-duration: 0.30s;
 }
 .buttonText {
     font-size: 18px;
     font-weight: 600;
     padding: 10px 18px;
     color:#5c6bdb;
-    transition-duration: 0.70s;
 }
-.buttonText:hover{color: #5c6bdba4;}
+.buttonText:hover{color: #5c6bdbb2;transition-duration: 0.30s;}
 .googleimg {
     width: 20px;
     margin: 15px -5px 0 16px;

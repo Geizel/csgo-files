@@ -4,32 +4,23 @@ h1{  /* Title */
     font-size: 28px;
     color: #42455C;
     font-weight: 600;
+    margin: 16px 6px 16px 0px;
 }
-h2{ /* Maps on header */
-    font-size: 28px;
-    color: #42455C;
-    font-weight: 600;
+h3 {  /* Map Titles */
+    font-size: clamp(48px, 6vw, 90px);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-h3 {  /* About */
-    font-size: clamp(22px, 3vw, 32px);
-    color:#131313;
-    font-weight: 600;
-    text-align: center;
-    margin: 40px auto 10px auto;
-
-}
-h4 { /*welcome*/
-    font-size: clamp(16px, 2vw, 20px);
-    text-align: center;
-    font-weight: 600;
-    color: #ffffff;
-}
-h5 { /* Large Unimportant */
-    font-size: clamp(22px, 3vw, 32px);
+h2 { /* About, Contact, and Recomended */
+    font-size: clamp(22px, 3vw, 28px);
     color:#1d1d1d;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 p { /* Paragraph Content Text */
     font-size: clamp(16px, 2vw, 20px);
@@ -38,12 +29,19 @@ p { /* Paragraph Content Text */
     margin-left: auto;
     margin-right: auto;
 }
-.mapTitle{ /* Large Map Name */
-    font-size: clamp(60px, 7vw, 100px);
-    color: rgb(255, 255, 255);
-    font-weight: 800;
+.dropbtn{ /* Maps on header */
+    font-size: 28px;
+    color: #42455C;
+    font-weight: 600;
+    margin: 16px 6px 4px 0;
+}
+.heading-p { /*welcome*/
+    font-size: clamp(16px, 2vw, 20px);
     text-align: center;
-    padding: 16px;
-    background-position: center;
-    background-size: 120%;
+    font-weight: 600;
+    color: #ffffff;
+}
+.support-text{
+    font-size: 17px;
+
 }
