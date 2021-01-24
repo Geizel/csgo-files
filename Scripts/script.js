@@ -4,6 +4,7 @@ let show1 = true;
 let reco2 = document.getElementById("videorec2");
 let show2 = false;
 let reco3 = document.getElementById("videorec3"); 
+let show3 = false;
 
 let leftDot = document.getElementById("dot1");
 let midDot = document.getElementById("dot2");

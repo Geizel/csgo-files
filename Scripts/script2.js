@@ -1,15 +1,18 @@
 
 let dropc = document.getElementById("dropContent")
-let oop = true;
-
+dropc.style.display="none"
 function drop() {
-    if(oop == true) {
+    if(dropc.style.display == "none") {
         dropc.style.display = "block";
-        oop = false;
     }
-    else {
-        dropc.style.display = "none";
-        oop = true;
-
+    else{
+        dropc.style.display = "none"
+    }
 }
-} 
+
+window.addEventListener("mouseup", function(hide){
+
+    if(hide.target !=dropc && hide.target.parentNode != dropc) {
+        dropc.style.display = 'none';
+    }
+});

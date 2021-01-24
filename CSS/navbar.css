@@ -28,7 +28,6 @@
     margin-bottom: 2px;
 }
 .dropDownContent {
-    display: none;
     position: absolute;
     background-color: #ffffff;
     min-width: 120px;

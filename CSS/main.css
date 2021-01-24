@@ -48,6 +48,10 @@ body {
 .panel3 p {
 	color: #1d1d1d;
 }
+.twitter-link {
+	font-size: clamp(16px, 2vw, 20px);
+	color: #5c6bdb;
+}
 .panel3 h2 {
 	margin-top: 32px;
 	margin-bottom: 10px;
@@ -103,6 +107,21 @@ body {
 
 
 
+.keyboard-container {
+	display: flex;
+	flex-direction: row;
+}
+.keyboard-container div {
+	margin: 10px 12px 0px 0px;
+	padding: 10px 16px;
+	color: white;
+	background-color:#5c6bdb;
+	border-radius: 8px;
+	background: rgb(71,78,147);
+	background: linear-gradient(164deg, rgba(71,78,147,1) 0%, rgba(92,107,219,1) 79%); 
+}
+
+
 .videoSlides{
 	display: flex;
 	margin-right: auto;
@@ -139,14 +158,12 @@ iframe{
 	margin: 20px 0 20px 50px;
 }
 .videoLinks li {
-	color: rgb(46, 46, 46);
 	font-weight: 600;
-	text-decoration: underline;
 	margin: 12px;
 	color: #5c6bdb;
 	font-size: clamp(16px, 3vw, 22px);
 }
-.videoLinks a{font-size: clamp(20px, 3vw, 26px);}
+.videoLinks a{font-size: clamp(20px, 3vw, 26px);text-decoration: underline;}
 @media (max-width: 595px) {
 	.panel1{
 		width: clamp(270px, 70vw, 450px);
