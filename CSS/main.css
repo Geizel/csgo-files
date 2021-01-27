@@ -83,7 +83,7 @@ body {
 	margin-right: auto;
 	display: flex;
 	flex-direction: row;
-	width: 190px;
+	width: 294px;
 	height: 100px;
 }
 .footerList {
@@ -164,9 +164,14 @@ iframe{
 	font-size: clamp(16px, 3vw, 22px);
 }
 .videoLinks a{font-size: clamp(20px, 3vw, 26px);text-decoration: underline;}
-@media (max-width: 595px) {
+.center {
+	margin: 0 auto 0 auto;
+	position: relative;
+	left: 95px;
+}
+@media (max-width: 535px) {
 	.panel1{
-		width: clamp(270px, 70vw, 450px);
+		width: clamp(250px, 70vw, 450px);
 		padding: 22px;
 	}
 	.panel3{
@@ -174,8 +179,8 @@ iframe{
 		padding: 0px 24px 40px 24px;
 	}
 	.dropbtn {
-		margin: 12px auto 8px auto;
-		font-size: 18px;
+		margin: 11px auto 8px auto;
+		font-size: 19px;
 	}
 	.button {
 		border-radius: 20px;
@@ -188,8 +193,8 @@ iframe{
 		font-weight: 600;
 	}
 	.title {
-		margin: 12px 0px 12px 8px;
-		font-size: 18px;
+		margin: 11px 0px 12px 8px;
+		font-size: 19px;
 	}
 	.dropDownContent a{
 		padding: 14px 20px;
@@ -216,8 +221,8 @@ iframe{
 	iframe{
 		width:	70vw;
 		height: 39vw;
-		min-width: 270px;
-		min-height: 152px;
+		min-width: 250px;
+		min-height: 142px;
 		margin: auto;
 	}
 	.dots {
@@ -229,5 +234,8 @@ iframe{
 	}
 	.panel2{
 		width: 280px;
+	}
+	.center {
+		left: 34px;
 	}
 }

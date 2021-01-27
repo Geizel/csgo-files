@@ -43,5 +43,7 @@ p { /* Paragraph Content Text */
 }
 .support-text{
     font-size: 17px;
-
+}
+.submit {
+    margin-top: 26px;
 }
