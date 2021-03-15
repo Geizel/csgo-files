@@ -25,7 +25,7 @@ h2 { /* About, Contact, and Recomended */
 p { /* Paragraph Content Text */
     font-size: clamp(16px, 2vw, 20px);
     text-indent: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-left: auto;
     margin-right: auto;
 }
@@ -39,7 +39,7 @@ p { /* Paragraph Content Text */
     font-size: clamp(16px, 2vw, 20px);
     text-align: center;
     font-weight: 600;
-    color: #ffffff;
+    color: #000000;
 }
 .support-text{
     font-size: 17px;
