@@ -19,7 +19,6 @@ rightDot.style.display ="none";
 
 function left() {
     document.querySelectorAll('iframe').forEach(v => { v.src = v.src });
-    document.querySelectorAll('video').forEach(v => { v.pause() });
 if(show1 == true) {
     reco1.style.display = "none";
     reco3.style.display = "";

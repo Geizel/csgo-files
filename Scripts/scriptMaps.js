@@ -8,8 +8,6 @@ videoLink6.addEventListener("click", show);
 videoLink7.addEventListener("click", show);    
 function show() {
     document.querySelectorAll('iframe').forEach(v => { v.src = v.src });
-    document.querySelectorAll('video').forEach(v => { v.pause() });
-
     var allImages = document.querySelectorAll("iframe");
     for (var i = 0; i < allImages.length; i++) {
         allImages[i].className = "hide";
