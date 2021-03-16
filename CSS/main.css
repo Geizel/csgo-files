@@ -176,12 +176,12 @@ iframe{
 		padding: 0px 24px 40px 24px;
 	}
 	.dropbtn {
-		margin: 11px auto 8px auto;
+		margin: 8px auto 8px auto;
 		font-size: 19px;
 	}
 	.button {
 		border-radius: 20px;
-		margin: 10px 4px 0 0;
+		margin: 6px 4px 0 0;
 		border: 2px solid #5c6bdb;
 	}
 	.buttonText {
@@ -204,6 +204,11 @@ iframe{
 	}
 	.logo {
 		display: none;
+	}
+	.text-logo{
+		width: 120px;
+		margin-top: 4px;
+		margin-left: 11px;
 	}
 	.videoSlides {
 		width: 95%;

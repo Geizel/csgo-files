@@ -17,6 +17,10 @@
     width: 20px;
     margin: 0 8px 0 28px;
 }
+.text-logo{
+    width: 178px;
+    margin-top: 9px;
+}
 .dropDown {
     float: left;
     overflow: hidden;
@@ -34,7 +38,6 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-@font-face { font-family: coolvectica rg; src: url('../coolvetica rg.ttf'); } 
 .dropDownContent a{
     float: none;
     color:#232323;
