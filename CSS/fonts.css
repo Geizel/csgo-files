@@ -15,7 +15,7 @@ h3 {  /* Map Titles */
     left: 50%;
     transform: translate(-50%, -50%);
 }
-h2 { /* About, Contact, and Recomended */
+h2 { /* About, Contact, and Recommended */
     font-size: clamp(22px, 3vw, 28px);
     color:#1d1d1d;
     font-weight: 600;
