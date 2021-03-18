@@ -164,7 +164,6 @@ iframe{
 .center {
 	margin: 0 auto 0 auto;
 	position: relative;
-	left: 95px;
 }
 @media (max-width: 535px) {
 	.panel1{

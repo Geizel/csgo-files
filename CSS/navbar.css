@@ -16,7 +16,9 @@
 }
 .text-logo{
     width: 178px;
-    margin-top: 10px;
+    margin-top: 11px;
+    height: 100%;
+    filter: invert(25%) sepia(5%) saturate(2379%) hue-rotate(196deg) brightness(100%) contrast(93%);
 }
 .dropDown {
     float: left;
