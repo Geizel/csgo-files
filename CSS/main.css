@@ -80,7 +80,7 @@ body {
 	margin-right: auto;
 	display: flex;
 	flex-direction: row;
-	width: 294px;
+	width: 420px;
 	height: 100px;
 }
 .footerList {
@@ -165,6 +165,21 @@ iframe{
 	margin: 0 auto 0 auto;
 	position: relative;
 }
+.bod{
+	width: 75%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bod h1{
+	text-align: center;
+	font-size: 34px;
+	margin-top:40px;
+}
+.bod h2 {
+	font-size: 22px;
+	margin: 20px;
+}
 @media (max-width: 535px) {
 	.panel1{
 		width: clamp(250px, 70vw, 450px);
@@ -240,7 +255,13 @@ iframe{
 		left: 34px;
 	}
 	.footLogo {
-		width:24px;
+		width:20px;
+	}
+	.footcenter {
+		width: 350px;
+	}
+	.footer a {
+		font-size: 13px;
 	}
 
 
