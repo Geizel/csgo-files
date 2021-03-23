@@ -18,7 +18,8 @@ function onSignIn(googleUser) {
     element.className = "sign-out";
 
     var image = document.getElementById("pfp")
-    image.setAttribute("src", profile.getImageUrl());
+    image.setAttribute("src", profile.getImageUrl())
+    image.className = "pfpp"
   }
 
 
