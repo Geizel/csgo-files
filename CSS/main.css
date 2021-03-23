@@ -194,12 +194,15 @@ iframe{
 		width: clamp(250px, 70vw, 450px);
 		padding: 22px;
 	}
+	.g-signin2{
+		margin: 6px;
+	}
 	.panel3{
 		width: clamp(270px, 70vw, 450px);
 		padding: 0px 24px 40px 24px;
 	}
 	.dropbtn {
-		margin: 8px auto 8px auto;
+		margin: 11px auto 8px auto;
 		font-size: 19px;
 	}
 	.button {
@@ -230,7 +233,7 @@ iframe{
 	}
 	.text-logo{
 		width: 120px;
-		margin-top: 5px;
+		margin-top: 8px;
 		margin-left: 11px;
 	}
 	.videoSlides {
