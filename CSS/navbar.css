@@ -73,7 +73,13 @@
     color:#5c6bdb;
 }
 .buttonText:hover{color: #5c6bdbb2;transition-duration: 0.30s;}
-.googleimg {
-    width: 20px;
-    margin: 15px -5px 0 16px;
+.sign-out-div {
+	float: right;
+	font-size: 22px;
+	margin-top: 20px;
+}
+.sign-out{
+    font-size: 20px;
+    color:#5c6bdb;
+    font-weight: 600;
 }
