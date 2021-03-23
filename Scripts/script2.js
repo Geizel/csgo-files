@@ -15,15 +15,16 @@ function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
 
     var element = document.getElementById("g-signin2");
-    element.style.display = "hide";
+    element.className = "hide";
 
-    var image = document.createElement("img")
+    var image = document.getElementById("pfp")
     image.setAttribute("src", profile.getImageUrl())
     element.append(image)
   }
 
 
   function signOut() {
+    element.remove(image)
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then(function () {
     });
