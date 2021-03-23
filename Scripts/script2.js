@@ -12,11 +12,10 @@ window.addEventListener("mouseup", function(hide){
 });
 
 function onSignIn(googleUser) {
-    alert("cat");
-    var profile = googleUser.getBasicProfile();
-    getElementById("sign-in").style.display = "none";
-    profile.getName();
-    profile.getImageUrl();
+    let google = document.getElementsByClassName("g-signin2");
+    google.style.display = "none";
+    let url = profile.getImageUrl();
+    document.querySelector('#pfp').innerText = url;
   }
 
 
