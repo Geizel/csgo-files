@@ -180,6 +180,15 @@ iframe{
 	font-size: 22px;
 	margin: 20px;
 }
+.g-signin2 {
+	float: right;
+	margin: 16px;
+	border: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	outline:none;
+	
+
+}
 @media (max-width: 535px) {
 	.panel1{
 		width: clamp(250px, 70vw, 450px);
