@@ -23,6 +23,10 @@ function onSignIn(googleUser) {
 
 
   function signOut() {
+    var image = document.getElementById("pfp")
+    image.className = "hide";
+    var element = document.getElementById("signout");
+    element.className = "hide";
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then(function () {
     });
