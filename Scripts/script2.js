@@ -14,12 +14,11 @@ window.addEventListener("mouseup", function(hide){
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
 
-    var element = document.getElementById("g-signin2");
-    element.className = "hide";
+    var element = document.getElementById("signout");
+    element.className = "sign-out";
 
     var image = document.getElementById("pfp")
-    image.setAttribute("src", profile.getImageUrl())
-    element.append(image)
+    image.setAttribute("src", profile.getImageUrl());
   }
 
 
