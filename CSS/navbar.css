@@ -76,17 +76,18 @@
 .sign-out-div {
 	float: right;
 	font-size: 22px;
-	margin-top: 20px;
+	margin-top: 19px;
 }
 .sign-out{
     font-size: 20px;
     color:#5c6bdb;
     font-weight: 600;
+    margin-right: 12px;
+    text-decoration: underline !important;
 }
 .pfpp {
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 36px;
     float: right;
-    margin-top: 5px;
+    margin-top: 16px;
 }
