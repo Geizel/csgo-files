@@ -188,7 +188,7 @@ iframe{
 	outline:none;
 }
 
-@media (max-width: 535px) {
+@media (max-width: 623px) {
 	.panel1{
 		width: clamp(250px, 70vw, 450px);
 		padding: 22px;
