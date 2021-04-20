@@ -268,8 +268,11 @@ iframe{
 	.footcenter {
 		width: 350px;
 	}
+	.footer li {
+		margin: 0px 6px;
+	}
 	.footer a {
-		font-size: 13px;
+		font-size: 14px;
 	}
 	.pfpp {
 		display: none;
