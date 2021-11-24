@@ -52,7 +52,7 @@ background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='Layer_1' xmlns=
 }
 .twitter-link {
 	font-size: clamp(16px, 2vw, 20px);
-	color: #5c6bdb;
+	color: #519C0C;
 }
 .panel3 h2 {
 	margin-top: 32px;
@@ -254,7 +254,7 @@ iframe{
 		width:	70vw;
 		height: 28.7vw;
 		min-width: 250px;
-		min-height: 100px;
+		min-height: 148px;
 		margin: auto;
 	}
 	.dots {
