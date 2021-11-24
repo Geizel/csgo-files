@@ -13,12 +13,13 @@
 .logo {
     width: 21px;
     margin: 0 8px 0 20px;
+    filter: invert(9%) sepia(32%) saturate(7089%) hue-rotate(228deg) brightness(84%) contrast(111%);
 }
 .text-logo{
     width: 178px;
     margin-top: 11px;
     height: 100%;
-    filter: invert(25%) sepia(5%) saturate(2379%) hue-rotate(196deg) brightness(100%) contrast(93%);
+    filter: invert(9%) sepia(32%) saturate(7089%) hue-rotate(228deg) brightness(84%) contrast(111%);
 }
 .dropDown {
     float: left;
@@ -29,6 +30,7 @@
     width: 16px;
     margin-left: 5px;
     margin-bottom: 2px;
+    filter: invert(9%) sepia(32%) saturate(7089%) hue-rotate(228deg) brightness(84%) contrast(111%);
 }
 .dropDownContent {
     position: absolute;
@@ -55,7 +57,7 @@
 .button {
     border-radius: 26px;
     margin: 10px clamp(10px, 2vw, 18px);
-    border: 3px solid #5c6bdb;
+    border: 3px solid #609256;
     outline:none;
     background-color: #ffffff00;
     float: right;

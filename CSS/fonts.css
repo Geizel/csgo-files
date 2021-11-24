@@ -2,7 +2,7 @@
 
 h1{  /* Title */
     font-size: 28px;
-    color: #42455C;
+    color: #02104F;
     font-weight: 600;
     margin: 16px 6px 16px 0px;
 }
@@ -31,7 +31,7 @@ p { /* Paragraph Content Text */
 }
 .dropbtn{ /* Maps on header */
     font-size: 30px;
-    color: #42455C;
+    color: #02104F;
     margin: 16px 6px 4px 0;
     font-family: cool;
 }
