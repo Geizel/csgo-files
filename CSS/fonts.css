@@ -39,15 +39,23 @@ p { /* Paragraph Content Text */
 	font-family: cool;
 	src: url(../coolvetica.ttf);
   }
-.heading-p { /*welcome*/
-    font-size: clamp(16px, 2vw, 20px);
+.heading-p { /*GO FAR*/
+    font-size: clamp(30px, 4vw, 60px);
     text-align: center;
     font-weight: 600;
-    color: #000000;
+    font-family: cool;
 }
 .support-text{
     font-size: 17px;
 }
 .submit {
     margin-top: 26px;
+}
+.RecommendedText {
+    margin-top: 40px;
+    font-family: cool;
+    color: #02104F;
+    font-weight: 500;
+    font-size: clamp(24px, 3vw, 36px);
+    margin: 1.7vw;
 }
