@@ -2,7 +2,7 @@
 
 h1{  /* Title */
     font-size: 28px;
-    color: #02104F;
+    color: #031359;
     font-weight: 600;
     margin: 16px 6px 16px 0px;
 }
@@ -31,7 +31,7 @@ p { /* Paragraph Content Text */
 }
 .dropbtn{ /* Maps on header */
     font-size: 30px;
-    color: #02104F;
+    color: #031359;
     margin: 16px 6px 4px 0;
     font-family: cool;
 }
@@ -54,7 +54,7 @@ p { /* Paragraph Content Text */
 .RecommendedText {
     margin-top: 40px;
     font-family: cool;
-    color: #02104F;
+    color: #1a1a1a;
     font-weight: 500;
     font-size: clamp(24px, 3vw, 36px);
     margin: 1.7vw;

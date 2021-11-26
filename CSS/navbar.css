@@ -13,13 +13,13 @@
 .logo {
     width: 21px;
     margin: 0 8px 0 20px;
-    filter: invert(9%) sepia(32%) saturate(7089%) hue-rotate(228deg) brightness(84%) contrast(111%);
+    filter: invert(10%) sepia(84%) saturate(2320%) hue-rotate(223deg) brightness(88%) contrast(114%);
 }
 .text-logo{
     width: 178px;
     margin-top: 11px;
     height: 100%;
-    filter: invert(9%) sepia(32%) saturate(7089%) hue-rotate(228deg) brightness(84%) contrast(111%);
+    filter: invert(10%) sepia(84%) saturate(2320%) hue-rotate(223deg) brightness(88%) contrast(114%);
 }
 .dropDown {
     float: left;
@@ -30,7 +30,7 @@
     width: 16px;
     margin-left: 5px;
     margin-bottom: 2px;
-    filter: invert(9%) sepia(32%) saturate(7089%) hue-rotate(228deg) brightness(84%) contrast(111%);
+    filter: invert(10%) sepia(84%) saturate(2320%) hue-rotate(223deg) brightness(88%) contrast(114%);
 }
 .dropDownContent {
     position: absolute;
@@ -81,7 +81,7 @@
 }
 .sign-out{
     font-size: 20px;
-    color:#02104F;
+    color:#031359;
     font-weight: 600;
     margin-right: 12px;
     text-decoration: underline !important;
